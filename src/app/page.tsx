@@ -9,6 +9,7 @@ import FunFactArea from "@/components/fun-fact/fun-fact-area";
 import HeroAreaTwo from "@/components/hero-area/hero-area-two";
 import TeamArea from "@/components/team/team-area";
 import TestimonialTwo from "@/components/testimonial/testimonial-two";
+import TutoringFeatures from "@/components/feature/tutoring-features";
 
 
 export const metadata: Metadata = {
@@ -22,10 +23,6 @@ export default function HomePage() {
       <HeroAreaTwo />
       {/* hero area end */}
 
-      {/* category area */}
-      <CategoryArea />
-      {/* category area */}
-
       {/* fun fact area start */}
       <FunFactArea/>
       {/* fun fact area end */}
@@ -34,8 +31,12 @@ export default function HomePage() {
       <CourseArea/>
       {/* course area end */}
 
+    {/* category area */}
+      <CategoryArea />
+      {/* category area */}
+      
       {/* course live area start */}
-      <CourseLiveArea/>
+      {/* <CourseLiveArea/> */}
       {/* course live area end */}
 
       {/* testimonial area start */}
@@ -43,13 +44,13 @@ export default function HomePage() {
       {/* testimonial area end */}
 
       {/* team area start */}
-      <TeamArea/>
+      {/* <TeamArea/> */}
       {/* team area end */}
 
       {/* brand area start */}
-      <BrandArea/>
+      {/* <BrandArea/> */}
       {/* brand area end */}
-
+      <TutoringFeatures/>
       {/* banner area start */}
       <BannerArea/>
       {/* banner area end */}

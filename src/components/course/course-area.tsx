@@ -18,9 +18,9 @@ export default function CourseArea() {
               <div className="tp-section mb-40">
                 <h5 className="tp-section-3-subtitle">Our Courses</h5>
                 <h3 className="tp-section-3-title">
-                  Most Popular
+                  Featured 
                   <span>
-                    Courses
+                     Disciplines
                     <Image
                       className="tp-underline-shape-6 wow bounceIn"
                       data-wow-duration="1.5s"
@@ -30,17 +30,18 @@ export default function CourseArea() {
                     />
                   </span>
                 </h3>
+                <p>Explore our comprehensive learning paths, each powered by advanced AI technology tailored to your field of study</p>
               </div>
             </div>
             <div className="col-xxl-7 col-xl-6 col-lg-5">
               <div className="tp-course-tab d-flex justify-content-lg-end mb-40">
-                <nav>
+                {/* <nav>
                   <div className="nav" id="nav-tab" role="tablist">
                     {tab_navs.map((tab) => (
                       <CourseTabBtn key={tab} tab={tab} />
                     ))}
                   </div>
-                </nav>
+                </nav> */}
               </div>
             </div>
           </div>

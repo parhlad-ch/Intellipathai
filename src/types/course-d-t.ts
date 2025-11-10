@@ -13,4 +13,9 @@ export type ICourseDT = {
     total_rating: number;
     language: string;
     progress?: number;
+    description?: string;
+    features?: Array<{
+        name: string;
+        description: string;
+    }>;
 }

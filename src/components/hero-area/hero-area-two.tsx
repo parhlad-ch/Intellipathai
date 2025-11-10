@@ -21,15 +21,15 @@ export default function HeroAreaTwo() {
                   className="tp-hero-2-subtitle wow fadeInUp"
                   data-wow-delay=".3s"
                 >
-                  Keep Learning
+                  Powered by Advanced AI Technology
                 </span>
                 <h2
                   className="tp-hero-2-title wow fadeInUp"
                   data-wow-delay=".5s"
                 >
-                  Best digital {" "}
+                  Your {" "}
                   <span>
-                    Online{" "}
+                    Personalized{" "}
                     <Image
                       className="wow bounceIn"
                       data-wow-duration="1.5s"
@@ -38,18 +38,17 @@ export default function HeroAreaTwo() {
                       alt="svg-underline"
                     />
                   </span>
-                  Courses
+                  AI Mentor for Every Field
                 </h2>
                 <p className=" wow fadeInUp" data-wow-delay=".7s">
-                  Acquire global knowledge and build your <br /> professional
-                  skills
+                 Master any discipline with intelligent, adaptive learning paths tailored to your pace and goals. From computer science to medical studies, your AI companion is ready.
                 </p>
                 <div
                   className="tp-hero-2-btn wow fadeInUp"
                   data-wow-delay=".9s"
                 >
                   <Link className="tp-btn-border" href="/course-with-filter">
-                    Find Courses
+                    Get Started
                     <span>
                       <RightArrowFour />
                     </span>
@@ -62,7 +61,7 @@ export default function HeroAreaTwo() {
                 className="tp-hero-2-course p-relative wow fadeInUp"
                 data-wow-delay=".5s"
               >
-                <CourseItem course={online_courses_data[0]} />
+                {/* <CourseItem course={online_courses_data[0]} /> */}
               </div>
             </div>
           </div>
