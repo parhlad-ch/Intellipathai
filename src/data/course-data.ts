@@ -82,6 +82,195 @@ export const online_courses_data: ICourseDT[] = [
       }
     ]
   },
+  {
+    id: 4,
+    author_img: "/assets/img/teacher/teacher-4.png",
+    author_name: "Arts & Humanities Faculty",
+    title: "Arts & Humanities",
+    thumbnail: "/assets/img/course/course-thumb-3.jpg",
+    category: "Arts & Humanities",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 40,
+    students: 85,
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Explore languages, social sciences, and fine arts with comprehensive literary learning",
+    features: [
+      {
+        name: "Literary Analysis Tool",
+        description: "AI-powered text analysis and interpretation"
+      },
+      {
+        name: "Cultural Context AI",
+        description: "Understand historical and cultural backgrounds"
+      }
+    ]
+  },
+  {
+    id: 5,
+    author_img: "/assets/img/teacher/teacher-5.png",
+    author_name: "Science Department",
+    title: "Science",
+    thumbnail: "/assets/img/course/course-thumb-4.jpg",
+    category: "Science",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 45,
+    students: 180,
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Master natural and physical sciences with interactive simulations and AI-powered labs",
+    features: [
+      {
+        name: "Virtual Lab Assistant",
+        description: "Conduct experiments in AI-powered virtual labs"
+      },
+      {
+        name: "Scientific Calculator AI",
+        description: "Advanced calculations with step-by-step explanations"
+      }
+    ]
+  },
+  {
+    id: 6,
+    author_img: "/assets/img/teacher/teacher-6.png",
+    author_name: "Commerce Faculty",
+    title: "Commerce",
+    thumbnail: "/assets/img/course/course-thumb-6.jpg",
+    category: "Commerce",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 35,
+    students: 95,
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Excel in business, finance, and economics with AI-powered case studies",
+    features: [
+      {
+        name: "Financial Analysis AI",
+        description: "Real-time market analysis and insights"
+      },
+      {
+        name: "Business Simulation",
+        description: "Practice business decisions in virtual scenarios"
+      }
+    ]
+  },
+  {
+    id: 7,
+    author_img: "/assets/img/teacher/teacher-1.png",
+    author_name: "Engineering Faculty",
+    title: "Engineering & Technology",
+    thumbnail: "/assets/img/course/course-thumb-1.jpg",
+    category: "Engineering & Technology",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 50,
+    students: 165,
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Master civil engineering through including ME and FITS",
+    features: [
+      {
+        name: "CAD Design Assistant",
+        description: "AI-powered design and drafting tools"
+      },
+      {
+        name: "Engineering Simulator",
+        description: "Test designs in virtual environments"
+      }
+    ]
+  },
+  {
+    id: 8,
+    author_img: "/assets/img/teacher/teacher-2.png",
+    author_name: "Law Faculty",
+    title: "Law",
+    thumbnail: "/assets/img/course/course-thumb-5.jpg",
+    category: "Law",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 38,
+    students: 78,
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Understand legal education with AI-powered case analysis",
+    features: [
+      {
+        name: "Case Law AI",
+        description: "Search and analyze legal precedents instantly"
+      },
+      {
+        name: "Legal Research Assistant",
+        description: "AI-powered legal document research"
+      }
+    ]
+  },
+  {
+    id: 9,
+    author_img: "/assets/img/teacher/teacher-3.png",
+    author_name: "Agriculture Faculty",
+    title: "Agriculture",
+    thumbnail: "/assets/img/course/course-thumb-2.jpg",
+    category: "Agriculture",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 30,
+    students: 65,
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Learn sustainable and organic farming with AI-powered crop management",
+    features: [
+      {
+        name: "Crop Health Monitor",
+        description: "AI-based crop disease detection"
+      },
+      {
+        name: "Yield Predictor",
+        description: "Predict harvest yields with AI algorithms"
+      }
+    ]
+  },
+  {
+    id: 10,
+    author_img: "/assets/img/teacher/teacher-4.png",
+    author_name: "Management Faculty",
+    title: "Management",
+    thumbnail: "/assets/img/course/course-thumb-3.jpg",
+    category: "Management",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 32,
+    students: 110,
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Develop leadership and business acumen with AI-driven case studies",
+    features: [
+      {
+        name: "Strategy Analyzer",
+        description: "AI-powered business strategy evaluation"
+      },
+      {
+        name: "Leadership Simulator",
+        description: "Practice management decisions in real scenarios"
+      }
+    ]
+  },
   // {
   //   id: 4,
   //   author_img: "/assets/img/teacher/teacher-5.png",
