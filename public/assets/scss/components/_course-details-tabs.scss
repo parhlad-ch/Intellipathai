@@ -1,0 +1,265 @@
+// Course Details Tabs Styling
+
+.tp-course-details-tabs {
+  border-bottom: 2px solid #e5e5e5;
+  margin-bottom: 40px;
+
+  .nav-tabs {
+    border: none;
+    gap: 10px;
+
+    .nav-link {
+      border: none;
+      border-bottom: 3px solid transparent;
+      background: transparent;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--tp-text-body);
+      transition: all 0.3s ease;
+      border-radius: 0;
+
+      &:hover {
+        color: var(--tp-theme-primary);
+      }
+
+      &.active {
+        color: var(--tp-theme-primary);
+        border-bottom-color: var(--tp-theme-primary);
+        background: transparent;
+      }
+    }
+  }
+}
+
+// Curriculum Module Styling
+.curriculum-modules {
+  .module-item {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .module-header {
+      background: #f8f9fa;
+      border-bottom: 1px solid #e5e5e5;
+
+      .module-icon {
+        font-size: 24px;
+        color: var(--tp-theme-primary);
+      }
+
+      .module-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--tp-common-black);
+      }
+
+      .module-duration {
+        font-size: 14px;
+      }
+
+      .badge {
+        padding: 6px 12px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+
+    .module-topics {
+      padding: 20px;
+
+      .topic-item {
+        font-size: 15px;
+        color: var(--tp-text-body);
+
+        i {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+// AI Tools Card Styling
+.ai-tools-content {
+  .ai-tool-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    height: 100%;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      border-color: var(--tp-theme-primary);
+    }
+
+    .ai-tool-icon {
+      width: 60px;
+      height: 60px;
+      background: rgba(42, 170, 148, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      i {
+        font-size: 28px;
+        color: var(--tp-theme-primary);
+      }
+    }
+
+    .ai-tool-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--tp-common-black);
+    }
+
+    .ai-tool-description {
+      font-size: 14px;
+      color: var(--tp-text-body);
+      line-height: 1.6;
+    }
+
+    .tp-btn-sm {
+      padding: 10px 24px;
+      background: var(--tp-theme-primary);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: var(--tp-theme-secondary);
+        transform: translateX(3px);
+      }
+    }
+  }
+}
+
+// Learning Outcomes Styling
+.learning-outcomes-content {
+  .outcomes-list {
+    .outcome-item {
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      border-left: 4px solid var(--tp-theme-primary);
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: #fff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        transform: translateX(5px);
+      }
+
+      .outcome-icon {
+        width: 30px;
+        height: 30px;
+        background: var(--tp-theme-primary);
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        i {
+          font-size: 14px;
+        }
+      }
+
+      .outcome-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--tp-common-black);
+        margin-bottom: 5px;
+      }
+
+      .outcome-description {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .learning-outcomes-cta {
+    background: linear-gradient(135deg, var(--tp-theme-primary) 0%, var(--tp-theme-secondary) 100%);
+    border-radius: 12px;
+    color: #fff;
+
+    .cta-title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .cta-description {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .tp-btn-inner {
+      background: #fff;
+      color: var(--tp-theme-primary);
+      padding: 15px 40px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+// Responsive
+@media #{$xs} {
+  .tp-course-details-tabs {
+    .nav-tabs {
+      flex-direction: column;
+      gap: 5px;
+
+      .nav-link {
+        padding: 12px 20px;
+        font-size: 14px;
+        text-align: left;
+      }
+    }
+  }
+
+  .curriculum-modules {
+    .module-header {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 15px;
+    }
+  }
+
+  .learning-outcomes-cta {
+    padding: 30px 20px !important;
+
+    .cta-title {
+      font-size: 20px;
+    }
+
+    .cta-description {
+      font-size: 14px;
+    }
+  }
+}
