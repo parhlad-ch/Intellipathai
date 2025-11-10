@@ -1,17 +1,14 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import shape_underline from "@/assets/img/unlerline/course-2-svg-1.svg";
 import category_shape from "@/assets/img/shape/category-2-shape-1.png";
-import CourseProvider from "../provider/course-provider";
-import CourseTabBtn from "./course-tab-btn";
-import CourseItems from "./course-items";
-
-const tab_navs = ["All Courses", "Trending", "Popularity", "Featured"];
+import CourseItem from "./single/course-item";
+import { online_courses_data } from "@/data/course-data";
 
 export default function CourseArea() {
   return (
-    <CourseProvider>
-      <section className="course-area tp-course-wrapper mt-100 mb-100">
+    <section className="course-area tp-course-wrapper mt-100 mb-100">
         <div className="container">
           <div className="row align-items-end">
             <div className="col-xxl-5 col-xl-6 col-lg-7">
@@ -49,7 +46,11 @@ export default function CourseArea() {
             <div className="col-lg-12">
               <div className="tab-content wow fadeInUp" data-wow-delay=".3s">
                 <div className="row">
-                  <CourseItems />
+                  {online_courses_data.slice(0, 3).map((course) => (
+                    <div key={course.id} className="col-lg-4 col-md-6">
+                      <CourseItem course={course} />
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -82,6 +83,5 @@ export default function CourseArea() {
           </div>
         </div>
       </section>
-    </CourseProvider>
   );
 }
