@@ -58,20 +58,25 @@ export const menu_data_2:IMenuDT2[] = [
 	{
         id:1,
         title:'Home',
-        link:'#',
+        link:'/',
     },
 	{
 		id:2,
+		title:'Disciplines',
+		link:'/disciplines',
+	},
+	{
+		id:3,
 		title:'About Us',
 		link:'/about',
 	},
 	{
-		id:3,
+		id:4,
 		title:'Courses',
 		link:'/course-categories',
 	},
 	{
-		id:4,
+		id:5,
 		title:'Dashboard',
 		link:'#',
 		dashboard_dropdown:[
@@ -111,17 +116,17 @@ export const menu_data_2:IMenuDT2[] = [
 		]
 	},
 	{
-		id:5,
+		id:6,
 		title:'Pricing',
 		link:'/membership-plans',
 	 },
 	 {
-		id:6,
+		id:7,
 		title:'Blog',
 		link:'/blog-stories',
 	 },
 	 {
-		id:7,
+		id:8,
 		title:'Contact Us',
 		link:'/contact',
 	 },
