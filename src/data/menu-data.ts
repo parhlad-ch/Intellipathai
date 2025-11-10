@@ -4,10 +4,15 @@ const menu_data:IMenu[] = [
     {
         id:1,
         title:'Home',
-        link:'#',
+        link:'/',
      },
 	 {
 		id:2,
+		title:'Disciplines',
+		link:'/disciplines',
+	 },
+	 {
+		id:3,
 		title:'Academics',
 		link:'#',
 		sm_mega_menus:[
@@ -21,7 +26,7 @@ const menu_data:IMenu[] = [
 		]
 	 },
 	 {
-		id:3,
+		id:4,
 		title:'Admissions',
 		link:'#',
 		dropdown_menus:[
@@ -34,12 +39,12 @@ const menu_data:IMenu[] = [
 		]
 	 },
 	 {
-		id:4,
+		id:5,
 		title:'About Us',
 		link:'/about',
 	 },
 	 {
-		id:5,
+		id:6,
 		title:'Blog',
 		link:'/blog-stories',
 	 }

@@ -1,0 +1,155 @@
+// Featured Disciplines Styles
+
+.tp-featured-disciplines-area {
+  position: relative;
+}
+
+.tp-featured-discipline-item {
+  background: var(--tp-common-white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(1, 15, 28, 0.06);
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(1, 15, 28, 0.1);
+  }
+}
+
+.tp-featured-discipline-thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+
+  img {
+    transition: transform 0.4s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.05);
+  }
+}
+
+.tp-featured-discipline-content {
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tp-featured-discipline-tag {
+  .tag-span {
+    display: inline-block;
+    padding: 6px 16px;
+    background: var(--tp-theme-primary);
+    color: var(--tp-common-white);
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}
+
+.tp-featured-discipline-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 15px;
+
+  a {
+    color: var(--tp-common-black);
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--tp-theme-primary);
+    }
+  }
+
+  @media #{$xs} {
+    font-size: 18px;
+  }
+}
+
+.tp-featured-discipline-features {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 3px solid var(--tp-theme-primary);
+
+  .features-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--tp-common-black);
+  }
+
+  .feature-item {
+    font-size: 14px;
+    line-height: 1.6;
+
+    .feature-icon {
+      color: var(--tp-theme-primary);
+      font-size: 16px;
+      margin-top: 2px;
+    }
+
+    strong {
+      color: var(--tp-common-black);
+      font-weight: 600;
+    }
+  }
+}
+
+.tp-featured-discipline-meta {
+  padding-top: 15px;
+  border-top: 1px solid #e5e5e5;
+  margin-top: auto;
+
+  span {
+    font-size: 14px;
+    color: var(--tp-text-body);
+
+    i {
+      margin-right: 5px;
+      color: var(--tp-theme-primary);
+    }
+  }
+}
+
+.tp-featured-discipline-btn {
+  .tp-btn-border {
+    display: block;
+    padding: 12px 24px;
+    border: 2px solid var(--tp-theme-primary);
+    color: var(--tp-theme-primary);
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: var(--tp-theme-primary);
+      color: var(--tp-common-white);
+    }
+  }
+}
+
+.tp-featured-discipline-all-btn {
+  .tp-btn-inner {
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 600;
+
+    i {
+      transition: transform 0.3s ease;
+    }
+
+    &:hover i {
+      transform: translateX(5px);
+    }
+  }
+}

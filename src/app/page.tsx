@@ -10,6 +10,7 @@ import HeroAreaTwo from "@/components/hero-area/hero-area-two";
 import TeamArea from "@/components/team/team-area";
 import TestimonialTwo from "@/components/testimonial/testimonial-two";
 import TutoringFeatures from "@/components/feature/tutoring-features";
+import FeaturedDisciplines from "@/components/disciplines/featured-disciplines";
 
 
 export const metadata: Metadata = {
@@ -30,6 +31,10 @@ export default function HomePage() {
       {/* course area start */}
       <CourseArea/>
       {/* course area end */}
+
+      {/* featured disciplines area start */}
+      <FeaturedDisciplines/>
+      {/* featured disciplines area end */}
 
     {/* category area */}
       <CategoryArea />
