@@ -57,15 +57,15 @@ export default function TestimonialTwo() {
       sliderRef.current?.slickNext();
     };
   return (
-    <section className="testimonial-area lightblue-bg pb-85">
+    <section className="testimonial-area lightblue-bg pb-60 pt-60">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xxl-6 col-lg-8">
             <div className="tp-testimonial-section">
               <div className="tp-section text-center mb-40">
-                <h5 className="tp-section-3-subtitle">Live Courses</h5>
+                <h5 className="tp-section-3-subtitle">What Our Learners Say</h5>
                 <h3 className="tp-section-3-title">
-                  Student{" "}
+                  What Our Learners {" "}
                   <span>
                     Say
                     <Image
@@ -76,8 +76,8 @@ export default function TestimonialTwo() {
                       alt="shape-underline"
                     />
                   </span>
-                  About IntelliPath AI
                 </h3>
+                <p>Join thousands of successful students who have transformed their learning journey with IntelliPath AI</p>
               </div>
             </div>
           </div>

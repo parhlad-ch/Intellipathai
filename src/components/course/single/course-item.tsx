@@ -24,6 +24,8 @@ export default function CourseItem({ course, removeTag }: IProps) {
     total_rating,
     category,
     price,
+    description,
+    features,
   } = course || {};
   return (
     <div className="tp-course-item p-relative fix mb-30">
@@ -68,6 +70,26 @@ export default function CourseItem({ course, removeTag }: IProps) {
             dangerouslySetInnerHTML={{ __html: removeTag ? title.replace(/(<([^>]+)>)/gi, "") : title }}
           ></Link>
         </h4>
+        {description && (
+          <p className="tp-course-description mb-15">
+            {description}
+          </p>
+        )}
+        {features && features.length > 0 && (
+          <div className="tp-course-features mb-15">
+            {features.map((feature, index) => (
+              <div key={index} className="tp-course-feature-item mb-10 d-flex align-items-start">
+                <span className="tp-course-feature-icon me-2">
+                  <i className="fa-solid fa-check-circle"></i>
+                </span>
+                <div className="tp-course-feature-content">
+                  <h5 className="tp-course-feature-name">{feature.name}</h5>
+                  <p className="tp-course-feature-desc">{feature.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
         <div className="tp-course-rating d-flex align-items-end justify-content-between">
           <div className="tp-course-rating-star">
             <p>

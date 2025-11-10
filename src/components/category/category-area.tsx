@@ -14,11 +14,11 @@ export default function CategoryArea() {
               className="tp-section mb-40 text-center wow fadeInUp"
               data-wow-delay=".4s"
             >
-              <h5 className="tp-section-3-subtitle">Top Categories</h5>
+              <h5 className="tp-section-3-subtitle">How It Works</h5>
               <h3 className="tp-section-3-title">
-                Most demanding{" "}
+                How It {" "}
                 <span>
-                  Categories
+                  Works
                   <Image
                     className="tp-underline-shape-5 wow bounceIn"
                     data-wow-duration="1.5s"
@@ -27,8 +27,8 @@ export default function CategoryArea() {
                     alt="shape"
                   />
                 </span>
-                .
               </h3>
+              <p>Get started with IntelliPath AI in four simple steps and transform your <br/> learning experience</p>
             </div>
           </div>
         </div>

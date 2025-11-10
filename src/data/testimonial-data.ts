@@ -22,50 +22,56 @@ export const testimonial_one_data = [
 export const testimonial_two_data = [
   {
     id: 1,
-    name: "Hilary Oise",
-    position: "Lecturer, Oxford University",
+    name: "Sarah Mitchell",
+    position: "Computer Science Student",
     rating: 5,
     testimonial:
-      "I need to get a certification for English proficiency and Acadia is my best choice. Their tutors are smart and professional when dealing with students. I wanted to place a review since! Thanks and 5 stars!",
+      "The AI code debugger has been a game-changer for my programming journey. It explains errors in a way that actually helps me learn, not just fix the immediate problem.",
+    initials: "SM",
   },
   {
     id: 2,
-    name: "Annette",
-    position: "Lecturer, Oxford University",
+    name: "Dr. James Chen",
+    position: "Medical Resident",
     rating: 5,
     testimonial:
-      "I need to get a certification for English proficiency and Acadia is my best choice. Their tutors are smart and professional when dealing with students. I wanted to place a review since! Thanks and 5 stars!",
+      "IntelliPath's diagnostic assistant helped me prepare for my boards. The case studies are incredibly realistic and the feedback is instantaneous. Highly recommended!",
+    initials: "JC",
   },
   {
     id: 3,
-    name: "Hollace",
-    position: "Lecturer, Oxford University",
+    name: "Emily Rodriguez",
+    position: "B.Ed Student",
     rating: 5,
     testimonial:
-      "I need to get a certification for English proficiency and Acadia is my best choice. Their tutors are smart and professional when dealing with students. I wanted to place a review since! Thanks and 5 stars!",
+      "Creating lesson plans used to take me hours. Now with the AI lesson plan generator, I can focus more on understanding pedagogy and less on formatting. It's brilliant!",
+    initials: "ER",
   },
   {
     id: 4,
-    name: "Leslie",
-    position: "Lecturer, Oxford University",
+    name: "Michael Thompson",
+    position: "Career Switcher",
     rating: 5,
     testimonial:
-      "I need to get a certification for English proficiency and Acadia is my best choice. Their tutors are smart and professional when dealing with students. I wanted to place a review since! Thanks and 5 stars!",
+      "The AI Resume Builder helped me land my dream job in tech. It perfectly tailored my experience to each application. The interview prep was invaluable too!",
+    initials: "MT",
   },
   {
     id: 5,
-    name: "Oisely",
-    position: "Lecturer, Oxford University",
+    name: "Priya Sharma",
+    position: "Graduate Student",
     rating: 5,
     testimonial:
-      "I need to get a certification for English proficiency and Acadia is my best choice. Their tutors are smart and professional when dealing with students. I wanted to place a review since! Thanks and 5 stars!",
+      "I love how IntelliPath adapts to my learning pace. Some days I fly through material, other days I need more support. The AI always knows what I need.",
+    initials: "PS",
   },
   {
     id: 6,
-    name: "Alex Avi",
-    position: "Lecturer, Oxford University",
+    name: "David Park",
+    position: "Professional Developer",
     rating: 5,
     testimonial:
-      "I need to get a certification for English proficiency and Acadia is my best choice. Their tutors are smart and professional when dealing with students. I wanted to place a review since! Thanks and 5 stars!",
+      "Even as an experienced developer, the algorithm simulator helps me visualize complex concepts I'm teaching my team. It's an excellent resource for continuous learning.",
+    initials: "DP",
   },
 ];
