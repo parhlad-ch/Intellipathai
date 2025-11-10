@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Breadcrumb from "@/components/breadcrumb/breadcrumb";
+import BreadcrumbOne from "@/components/breadcrumb/breadcrumb-one";
 import CourseProvider from "@/components/provider/course-provider";
 import CourseItems from "@/components/course/course-items";
 import BannerArea from "@/components/banner/banner-area";
@@ -13,7 +13,7 @@ export default function DisciplinesPage() {
   return (
     <main>
       {/* breadcrumb area start */}
-      <Breadcrumb
+      <BreadcrumbOne
         title="All Disciplines"
         subtitle="Explore Our Comprehensive Learning Paths"
       />
