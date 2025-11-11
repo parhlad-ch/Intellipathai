@@ -10,6 +10,7 @@ export type ICourseDT = {
     discount: number;
     lessons: number;
     students: number;
+    duration?: string;
     total_rating: number;
     language: string;
     progress?: number;

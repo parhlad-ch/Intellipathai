@@ -1,32 +1,54 @@
 // Course Details Tabs Styling
+@use '../utils/breakpoints' as *;
 
 .tp-course-details-tabs {
-  border-bottom: 2px solid #e5e5e5;
-  margin-bottom: 40px;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
 
   .nav-tabs {
     border: none;
-    gap: 10px;
+    justify-content: flex-start;
+    gap: 0;
+    display: flex;
+
+    .nav-item {
+      margin: 0;
+      flex: 1;
+    }
 
     .nav-link {
       border: none;
-      border-bottom: 3px solid transparent;
       background: transparent;
-      padding: 15px 30px;
+      padding: 18px 30px;
       font-size: 16px;
       font-weight: 600;
-      color: var(--tp-text-body);
+      color: #6c757d;
       transition: all 0.3s ease;
       border-radius: 0;
+      margin: 0;
+      width: 100%;
+      text-align: center;
+      border-right: 1px solid #e5e5e5;
+
+      &:last-child {
+        border-right: none;
+      }
 
       &:hover {
-        color: var(--tp-theme-primary);
+        color: var(--tp-common-black);
+        background: #f8f9fa;
       }
 
       &.active {
-        color: var(--tp-theme-primary);
-        border-bottom-color: var(--tp-theme-primary);
-        background: transparent;
+        color: #fff;
+        background: #5B6FED;
+        box-shadow: none;
       }
     }
   }
@@ -233,12 +255,20 @@
   .tp-course-details-tabs {
     .nav-tabs {
       flex-direction: column;
-      gap: 5px;
+
+      .nav-item {
+        width: 100%;
+      }
 
       .nav-link {
-        padding: 12px 20px;
-        font-size: 14px;
-        text-align: left;
+        padding: 15px 20px;
+        font-size: 15px;
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+
+        &:last-child {
+          border-bottom: none;
+        }
       }
     }
   }

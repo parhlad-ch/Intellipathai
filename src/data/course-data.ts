@@ -12,7 +12,8 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 2,
-    students: 150,
+    students: 15000,
+    duration: "6-12 months",
     total_rating: 5,
     language: "English",
     progress: 0,
@@ -20,11 +21,19 @@ export const online_courses_data: ICourseDT[] = [
     features: [
       {
         name: "AI Code Debugger",
-        description: "Instantly identify and fix code issues"
+        description: "Instantly identify and fix code issues with AI assistance"
       },
       {
         name: "Algorithm Simulator",
         description: "Visualize complex algorithms in real-time"
+      },
+      {
+        name: "Code Review Assistant",
+        description: "Get instant feedback on your code quality"
+      },
+      {
+        name: "Practice Problems",
+        description: "Access 1000+ coding challenges tailored to your level"
       }
     ]
   },
@@ -39,19 +48,28 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 2,
-    students: 200,
+    students: 12000,
+    duration: "12-18 months",
     total_rating: 5,
     language: "English",
     progress: 0,
-    description: "Advanced medical education with AI-assisted diagnostics and interactive anatomy",
+    description: "Advanced medical education with AI-assisted diagnostics, interactive anatomy, and comprehensive exam preparation",
     features: [
       {
         name: "Diagnostic Assistant",
         description: "Practice diagnosis with AI-powered case studies"
       },
       {
-        name: "Anatomy Guide",
-        description: "3D interactive anatomy visualization"
+        name: "3D Anatomy Guide",
+        description: "Interactive 3D visualization of human anatomy"
+      },
+      {
+        name: "NEET Prep Module",
+        description: "Comprehensive preparation for medical entrance exams"
+      },
+      {
+        name: "Clinical Scenarios",
+        description: "Real-world patient cases for practice"
       }
     ]
   },
@@ -66,7 +84,8 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 2,
-    students: 120,
+    students: 18000,
+    duration: "8-12 months",
     total_rating: 5,
     language: "English",
     progress: 0,
@@ -74,11 +93,19 @@ export const online_courses_data: ICourseDT[] = [
     features: [
       {
         name: "Lesson Plan Generator",
-        description: "Create engaging lesson plans in minutes"
+        description: "Create engaging lesson plans in minutes with AI"
       },
       {
         name: "Classroom Simulator",
-        description: "Practice classroom management scenarios"
+        description: "Practice classroom management in virtual scenarios"
+      },
+      {
+        name: "Assessment Builder",
+        description: "Design effective tests and assignments"
+      },
+      {
+        name: "Resource Library",
+        description: "Access 5000+ teaching resources and materials"
       }
     ]
   },
@@ -93,7 +120,8 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 40,
-    students: 85,
+    students: 9200,
+    duration: "3-4 years",
     total_rating: 5,
     language: "English",
     progress: 0,
@@ -120,7 +148,8 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 45,
-    students: 180,
+    students: 18500,
+    duration: "3-4 years",
     total_rating: 5,
     language: "English",
     progress: 0,
@@ -147,7 +176,8 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 35,
-    students: 95,
+    students: 10500,
+    duration: "3-4 years",
     total_rating: 5,
     language: "English",
     progress: 0,
@@ -174,7 +204,8 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 50,
-    students: 165,
+    students: 16500,
+    duration: "4-5 years",
     total_rating: 5,
     language: "English",
     progress: 0,
@@ -201,7 +232,8 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 38,
-    students: 78,
+    students: 7800,
+    duration: "3-5 years",
     total_rating: 5,
     language: "English",
     progress: 0,
@@ -228,7 +260,8 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 30,
-    students: 65,
+    students: 6500,
+    duration: "3-4 years",
     total_rating: 5,
     language: "English",
     progress: 0,
@@ -255,7 +288,8 @@ export const online_courses_data: ICourseDT[] = [
     avg_rating: 5,
     discount: 0,
     lessons: 32,
-    students: 110,
+    students: 11000,
+    duration: "2-3 years",
     total_rating: 5,
     language: "English",
     progress: 0,
