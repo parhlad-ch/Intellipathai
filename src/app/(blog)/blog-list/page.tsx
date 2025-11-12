@@ -4,7 +4,7 @@ import BreadcrumbOne from "@/components/breadcrumb/breadcrumb-one";
 
 
 export const metadata: Metadata = {
-  title: "Blog List - Acadia",
+  title: "Blog List - IntelliPath AI",
 };
 
 export default function BlogListPage() {

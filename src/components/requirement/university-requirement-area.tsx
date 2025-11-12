@@ -13,7 +13,7 @@ export default function UniversityRequirementArea() {
                 <div className="tp-course-requrement-wrapper">
                     <div className="tp-course-requrement-heading">
                     <h3 className="tp-course-requrement-title">Degree Requirements</h3>
-                    <p>The B.Sc. Program in Computer Science & Engineering (CSE) is designed to produce skilled graduates in the field to satisfy the growing demands of computer engineering graduates in the home and abroad. It provides the students an opportunity to obtain the broad knowledge of Computer Science, Computer Engineering with the freedom to tailor the program according to the students individual needs. Students are responsible for reading course descriptions when choosing classes for their self-designed major. If they choose a class that requires permissionbecause of prerequisites and/or is a course at another college within Acadia University</p>
+                    <p>The B.Sc. Program in Computer Science & Engineering (CSE) is designed to produce skilled graduates in the field to satisfy the growing demands of computer engineering graduates in the home and abroad. It provides the students an opportunity to obtain the broad knowledge of Computer Science, Computer Engineering with the freedom to tailor the program according to the students individual needs. Students are responsible for reading course descriptions when choosing classes for their self-designed major. If they choose a class that requires permissionbecause of prerequisites and/or is a course at another college within IntelliPath AI University</p>
                     <p>any of the graduate programs, they must seek permission using the proper procedures. Requesting permission is not a guarantee of being granted permission</p>
                     </div>
                     <div className="tp-course-requrement-heading-2">
@@ -66,7 +66,7 @@ export default function UniversityRequirementArea() {
                     <h4 className="tp-course-requrement-widget-contact-title">Contact Us</h4>
                     <p>1810 Campus Way NEBothell,<br/>
                         WA 98011-8246</p>
-                    <a href="mailto:acadia@gmail.com"><span><Email/></span> acadia@gmail.com</a>
+                    <a href="mailto:IntelliPath AI@gmail.com"><span><Email/></span> IntelliPath AI@gmail.com</a>
                     <a href="tel:90762"><span><TelSvg/></span> +670 413 90 762</a>
                     </div>
                     <div className="tp-course-requrement-widget-faq">

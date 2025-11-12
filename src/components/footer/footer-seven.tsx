@@ -37,7 +37,7 @@ export default function FooterSeven({bgClr,dashboard_footer}: Props) {
                     <span>
                       <Email />
                     </span>
-                    acadia@gmail.com</a>
+                    IntelliPath AI@gmail.com</a>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function FooterSeven({bgClr,dashboard_footer}: Props) {
           <div className="row">
             <div className="col-lg-12">
               <div className="tp-footer-copyright text-center">
-                <span>© {new Date().getFullYear()} <a href="#">Acadia</a>. All rights reserved.</span>
+                <span>© {new Date().getFullYear()} <a href="#">IntelliPath AI</a>. All rights reserved.</span>
               </div>
             </div>
           </div>

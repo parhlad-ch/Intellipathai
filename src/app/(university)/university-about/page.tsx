@@ -8,7 +8,7 @@ import AboutCampus from "@/components/about/about-campus";
 import TeamAreaThree from "@/components/team/team-area-three";
 
 export const metadata: Metadata = {
-  title: "University About - Acadia",
+  title: "University About - IntelliPath AI",
 };
 
 export default function UniversityAboutPage() {

@@ -7,7 +7,7 @@ import announce_icon from '@/assets/img/dashboard/icon/announcement-icon.svg';
 import no_data_bg from '@/assets/img/dashboard/bg/withdrawal-bg.png';
 
 export const metadata: Metadata = {
-   title: "Instructor Withdrawal - Acadia",
+   title: "Instructor Withdrawal - IntelliPath AI",
 }
 
 export default function InstructorWithdrawalPage() {

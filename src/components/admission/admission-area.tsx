@@ -14,7 +14,7 @@ export default function AdmissionArea() {
               className="tp-admission-overview-heading wow fadeInUp"
               data-wow-delay=".3s"
             >
-              <h3 className="tp-admission-overview-title">Afford Acadia</h3>
+              <h3 className="tp-admission-overview-title">Afford IntelliPath AI</h3>
             </div>
           </div>
           <div className="col-lg-6">
@@ -23,13 +23,13 @@ export default function AdmissionArea() {
               data-wow-delay=".5s"
             >
               <p>
-                At Acadia University, we prepare you to launch your career by
+                At IntelliPath AI University, we prepare you to launch your career by
                 providing a supportive, creative, and professional environment
                 from which to learn practical skills, build a network of
                 industry contacts.
               </p>
               <p>
-                Acadia is affordable for all admitted students. Financial aid
+                IntelliPath AI is affordable for all admitted students. Financial aid
                 covers all demonstrated need for all students, regardless of
                 citizenship or citizenship status. Families making under{" "}
                 <span>$85,000</span> a year pay nothing for their students

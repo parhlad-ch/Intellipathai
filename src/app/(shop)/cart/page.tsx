@@ -3,7 +3,7 @@ import CartArea from "./_components/cart-area";
 
 
 export const metadata:Metadata = {
-    title: "Cart - Acadia",
+    title: "Cart - IntelliPath AI",
 }
 
 export default function CartPage() {

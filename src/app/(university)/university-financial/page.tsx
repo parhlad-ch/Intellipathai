@@ -6,7 +6,7 @@ import ProcessThree from "@/components/process/process-three";
 import FinancialAidArea from "./_components/financial-aid-area";
 
 export const metadata: Metadata = {
-  title: "University Financial - Acadia",
+  title: "University Financial - IntelliPath AI",
 };
 
 export default function UniversityFinancialPage() {

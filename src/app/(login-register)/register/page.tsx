@@ -4,7 +4,7 @@ import RegisterForm from "@/components/form/register-form";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-    title: "Register - Acadia",
+    title: "Register - IntelliPath AI",
 };
 
 export default function RegisterPage() {

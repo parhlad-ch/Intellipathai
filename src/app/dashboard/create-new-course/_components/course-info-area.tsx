@@ -23,7 +23,7 @@ export default function CourseInfoArea() {
                      <label>Course Slug</label>
                      <input type="text" placeholder="new course" />
                   </div>
-                  <p>Permalink: <a href="#">https://demo.themepure.net/acadia/new-course</a></p>
+                  <p>Permalink: <a href="#">https://demo.themepure.net/IntelliPath AI/new-course</a></p>
                   <div className="tpd-input about-height">
                      <label>About Course</label>
                      <textarea placeholder="About Course"></textarea>

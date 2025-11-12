@@ -3,7 +3,7 @@ import CheckoutArea from "./_components/checkout-area";
 
 
 export const metadata: Metadata = {
-    title: "Checkout - Acadia",
+    title: "Checkout - IntelliPath AI",
 }
 
 export default function CheckoutPage() {

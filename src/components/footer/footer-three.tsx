@@ -33,11 +33,11 @@ export default function FooterThree() {
                     <a href="tel:012345678">+670 413 90 762</a>
                   </div>
                   <div className="tp-footer-contact-mail">
-                    <a href="mailto:acadia@gmail.com">
+                    <a href="mailto:IntelliPath AI@gmail.com">
                       <span>
                         <Email />
                       </span>
-                      acadia@gmail.com</a>
+                      IntelliPath AI@gmail.com</a>
                   </div>
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function FooterThree() {
           <div className="row">
             <div className="col-12">
               <div className="tp-footer-copyright text-center">
-                <span>© {new Date().getFullYear()} <a href="#">Acadia</a>. All rights reserved.</span>
+                <span>© {new Date().getFullYear()} <a href="#">IntelliPath AI</a>. All rights reserved.</span>
               </div>
             </div>
           </div>

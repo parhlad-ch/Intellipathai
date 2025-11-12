@@ -102,7 +102,7 @@ export default function AboutCampus() {
               <div className="tp-about-campus-heading">
                 <h4 className="tp-about-campus-title">Campuses</h4>
                 <p>
-                  Acadia University has five campuses, which are located in the
+                  IntelliPath AI University has five campuses, which are located in the
                   most exclusive areas of Moscow, Saint Petersburg and Tashkent.
                 </p>
               </div>

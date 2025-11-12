@@ -8,7 +8,7 @@ import GridSidebarCourseArea from "./_components/grid-sidebar-course-area";
 
 
 export const metadata: Metadata = {
-    title: "Course With Sidebar - Acadia",
+    title: "Course With Sidebar - IntelliPath AI",
 }
 
 export default function CourseWithSidebarPage() {

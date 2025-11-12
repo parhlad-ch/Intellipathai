@@ -6,7 +6,7 @@ import Link from "next/link";
 
 
 export const metadata: Metadata = {
-    title: "Not Found - Acadia",
+    title: "Not Found - IntelliPath AI",
 };
 
 export default function NotFound() {

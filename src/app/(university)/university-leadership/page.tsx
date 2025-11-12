@@ -3,7 +3,7 @@ import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-two";
 import LeadershipArea from "./_components/leadership-area";
 
 export const metadata: Metadata = {
-  title: "University Leadership - Acadia",
+  title: "University Leadership - IntelliPath AI",
 };
 
 export default function UniversityLeaderShipPage() {

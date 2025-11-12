@@ -8,7 +8,7 @@ import CampusVideoArea from "@/components/campus/campus-video-area";
 import CampusLifeArea from "@/components/campus/campus-life-area";
 
 export const metadata: Metadata = {
-  title: "University Campus - Acadia",
+  title: "University Campus - IntelliPath AI",
 };
 
 export default function UniversityCampusPage() {

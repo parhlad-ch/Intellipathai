@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HeaderCategoryArea() {
   return (
-    <div className="tp-header-2-category tp-header-inner-category home-2 d-none d-md-block">
+    <div className="tp-header-2-category tp-header-inner-category home-2 d-none d-md-none">
       <Link className="tp-header-2-category-icon" href="/course-with-sidebar">
         <p>
           <span>

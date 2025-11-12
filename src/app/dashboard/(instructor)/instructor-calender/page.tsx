@@ -4,7 +4,7 @@ import DashboardContentWrapper from "@/components/dashboard/dashboard-content-wr
 import InstructorCalenderArea from "@/components/dashboard/instructor/instructor-calender-area";
 
 export const metadata:Metadata = {
-    title: "Instructor Question Answer - Acadia",
+    title: "Instructor Question Answer - IntelliPath AI",
 }
 
 export default function InstructorQuestionAnswerPage() {

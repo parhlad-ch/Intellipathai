@@ -3,7 +3,7 @@ import ProfileArea from "./_components/profile-area";
 
 
 export const metadata: Metadata = {
-    title: "My Account - Acadia",
+    title: "My Account - IntelliPath AI",
 }
 
 export default function MyAccountPage() {

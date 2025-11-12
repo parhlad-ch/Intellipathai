@@ -4,7 +4,7 @@ const applicationProcess = [
     {
       step: 1,
       title: "Complete Application Form",
-      description: `The University of Acadia uses Apply web for the processing of graduate applications. <br> Proceed to the link below to create an Apply web account, submit an application review a <br> submitted application, and access post-submission functionality.`,
+      description: `The University of IntelliPath AI uses Apply web for the processing of graduate applications. <br> Proceed to the link below to create an Apply web account, submit an application review a <br> submitted application, and access post-submission functionality.`,
       linkText: "Application Form",
       linkHref: "/university-application-form"
     },

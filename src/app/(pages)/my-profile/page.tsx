@@ -4,7 +4,7 @@ import ProfileBio from "./_components/profile-bio";
 import MyCourses from "./_components/my-courses";
 
 export const metadata: Metadata = {
-  title: "Profile - Acadia",
+  title: "Profile - IntelliPath AI",
 };
 
 export default function ProfilePage() {

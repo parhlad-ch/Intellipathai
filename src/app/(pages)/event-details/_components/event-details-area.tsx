@@ -20,7 +20,7 @@ export default function EventDetailsArea({event}:IProps) {
             <div className="tp-event-details-wrapper">
               <div className="tp-event-details-about">
                 <h3 className="tp-event-details-title">{event.title}</h3>
-                <p>The Creating Futures Through Technology Conference – Acadia Tech Center is sponsored jointly by the Mississippi Community College Board and the Mississippi Universities Board with a goal of promoting collaboration as well as transforming teaching and learning on college campuses.
+                <p>The Creating Futures Through Technology Conference – IntelliPath AI Tech Center is sponsored jointly by the Mississippi Community College Board and the Mississippi Universities Board with a goal of promoting collaboration as well as transforming teaching and learning on college campuses.
                 </p>
                 <p>Celebrating our 20th anniversary this year on the gulf coast, the annual conference is designed to be the key venue where the higher education faculty, administrators and IT professionals come to share with one another their strategies, methods, This is an excellent marketing opportunity to reach C-Suite level administrators and influential educators. Some limited vendor exhibitor spaces and sponsorships may still be available with speaking.</p>
                 <button className="tp-event-details-about-more">

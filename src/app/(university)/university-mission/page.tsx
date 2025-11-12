@@ -5,7 +5,7 @@ import MissionFeatureArea from "@/components/mission/mission-feature-area";
 import MissionAreaTwo from "@/components/mission/mission-area-2";
 
 export const metadata: Metadata = {
-  title: "University Mission - Acadia",
+  title: "University Mission - IntelliPath AI",
 };
 
 export default function UniversityMissionPage() {

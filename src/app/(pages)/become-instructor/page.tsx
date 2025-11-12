@@ -5,7 +5,7 @@ import CounterSix from "@/components/counter/counter-six";
 import InstructorApplyArea from "./_components/instructor-apply-area";
 
 export const metadata: Metadata = {
-    title: "Become Instructor - Acadia",
+    title: "Become Instructor - IntelliPath AI",
 };
 
 export default function BecomeInstructorPage() {

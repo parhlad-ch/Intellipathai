@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ShopGridArea from "./_components/shop-grid-area";
 
 export const metadata: Metadata = {
-    title: "Shop Grid - Acadia",
+    title: "Shop Grid - IntelliPath AI",
 };
 
 export default function ShopPage() {

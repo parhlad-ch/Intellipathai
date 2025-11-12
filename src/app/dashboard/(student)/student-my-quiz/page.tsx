@@ -4,7 +4,7 @@ import DashboardContentWrapper from "@/components/dashboard/dashboard-content-wr
 import StudentMyQuizArea from "@/components/dashboard/student/student-my-quiz-area";
 
 export const metadata: Metadata = {
-    title: "Student Quiz - Acadia",
+    title: "Student Quiz - IntelliPath AI",
 }
 
 export default function StudentMyQuizPage() {

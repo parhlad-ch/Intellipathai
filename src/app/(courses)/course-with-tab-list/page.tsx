@@ -7,7 +7,7 @@ import TabCoursesArea from "../course-with-tab/_components/tab-courses-area";
 
 
 export const metadata: Metadata = {
-    title: "Course With Tab List - Acadia",
+    title: "Course With Tab List - IntelliPath AI",
 }
 
 export default function CourseWithTabListPage() {

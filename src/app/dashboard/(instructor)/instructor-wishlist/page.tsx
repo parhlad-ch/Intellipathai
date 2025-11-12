@@ -4,7 +4,7 @@ import DashboardContentWrapper from "@/components/dashboard/dashboard-content-wr
 import InstructorWishlistArea from "@/components/dashboard/instructor/instructor-wishlist-area";
 
 export const metadata:Metadata = {
-    title: "Instructor Wishlist - Acadia",
+    title: "Instructor Wishlist - IntelliPath AI",
 }
 
 export default function InstructorWishlistPage() {

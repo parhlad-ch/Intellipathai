@@ -3,7 +3,7 @@ import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-two";
 import UniversityRequirementArea from "@/components/requirement/university-requirement-area";
 
 export const metadata: Metadata = {
-  title: "University Requirements - Acadia",
+  title: "University Requirements - IntelliPath AI",
 };
 
 export default function UniversityRequirementsPage() {

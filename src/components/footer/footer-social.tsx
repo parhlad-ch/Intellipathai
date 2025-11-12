@@ -1,31 +1,31 @@
 const socialData = [
   {
     id: 1,
-    cls: "social-fb",
-    href: "https://www.facebook.com",
-    iconClass: "fa-brands fa-facebook-f",
-    alt: "Facebook",
-  },
-  {
-    id: 2,
     cls: "social-twit",
-    href: "https://www.twitter.com",
+    href: "https://twitter.com",
     iconClass: "fa-brands fa-twitter",
     alt: "Twitter",
   },
   {
-    id: 3,
+    id: 2,
     cls: "social-lnkd",
-    href: "https://www.linkedin.com",
-    iconClass: "fa-brands fa-linkedin-in",
+    href: "https://linkedin.com",
+    iconClass: "fa-brands fa-linkedin",
     alt: "LinkedIn",
   },
   {
+    id: 3,
+    cls: "social-git",
+    href: "https://github.com",
+    iconClass: "fa-brands fa-github",
+    alt: "GitHub",
+  },
+  {
     id: 4,
-    cls: "social-yout",
-    href: "https://www.youtube.com",
-    iconClass: "fa-brands fa-youtube",
-    alt: "YouTube",
+    cls: "social-email",
+    href: "mailto:contact@intellipath.ai",
+    iconClass: "fa-solid fa-envelope",
+    alt: "Email",
   },
 ];
 

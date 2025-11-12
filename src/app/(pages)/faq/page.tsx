@@ -4,7 +4,7 @@ import FaqArea from "@/components/faq/faq-area";
 
 
 export const metadata: Metadata = {
-    title: "FAQ - Acadia",
+    title: "FAQ - IntelliPath AI",
 };
 
 export default function FaqPage() {

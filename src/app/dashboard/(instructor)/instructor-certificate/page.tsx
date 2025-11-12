@@ -4,7 +4,7 @@ import DashboardContentWrapper from "@/components/dashboard/dashboard-content-wr
 import InstructorCertificateArea from "@/components/dashboard/instructor/instructor-certificate-area";
 
 export const metadata: Metadata = {
-   title: "Instructor Certificate - Acadia",
+   title: "Instructor Certificate - IntelliPath AI",
 }
 
 export default function InstructorCertificatePage() {

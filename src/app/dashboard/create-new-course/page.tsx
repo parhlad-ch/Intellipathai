@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import CreateNewCourseArea from "./_components/create-new-course-area";
 
 export const metadata: Metadata = {
-   title: "Create New Course - Acadia",
+   title: "Create New Course - IntelliPath AI",
 }
 
 export default function CreateNewCoursePage() {

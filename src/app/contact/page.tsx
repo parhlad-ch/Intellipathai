@@ -3,7 +3,7 @@ import ContactArea from "@/components/contact/contact-area";
 import ContactInfoArea from "@/components/contact/contact-info-area";
 
 export const metadata: Metadata = {
-    title: "Contact - Acadia",
+    title: "Contact - IntelliPath AI",
 };
 
 export default function ContactPage() {

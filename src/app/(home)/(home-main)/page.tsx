@@ -13,7 +13,7 @@ import CtaOne from '@/components/cta/cta-one';
 
 
 export const metadata: Metadata = {
-  title: "Home University Classic - Acadia",
+  title: "Home University Classic - IntelliPath AI",
 };
 
 export default function HomePage() {

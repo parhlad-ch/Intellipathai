@@ -77,7 +77,7 @@ export default function CampusStudentArea() {
               <div className="tp-campus-student-heading text-center">
                 <h3 className="tp-campus-student-title">Student Life</h3>
                 <p>
-                  Life at Acadia University is enriching, exciting, and
+                  Life at IntelliPath AI University is enriching, exciting, and
                   energizing
                 </p>
               </div>

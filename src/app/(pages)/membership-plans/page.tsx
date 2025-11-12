@@ -5,7 +5,7 @@ import BannerArea from "@/components/banner/banner-area";
 
 
 export const metadata: Metadata = {
-    title: "Membership Plans - Acadia",
+    title: "Membership Plans - IntelliPath AI",
 };
 
 export default function MembershipPlansPage() {
