@@ -1,9 +1,7 @@
 import Link from "next/link";
 import Image from "next/image"
 import shape_line_1 from '@/assets/img/unlerline/banner-2-svg-1.svg';
-import shape_line_2 from '@/assets/img/unlerline/banner-2-svg-2.svg';
 import thumb_1 from '@/assets/img/banner/banner-2-thumb-1.png';
-import thumb_2 from '@/assets/img/banner/banner-2-thumb-2.png';
 
 
 export default function BannerArea() {

@@ -1,13 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import CourseItem from "../course/single/course-item";
 import { RightArrowFour, ShapeTwo } from "../svg";
 import svg_underline from "@/assets/img/unlerline/hero-2-svg-1.svg";
 import hero_thumb from "@/assets/img/hero/hero-2-thumb-1.png";
 import hero_shape_1 from '@/assets/img/hero/hero-2-shape-2.png';
 import hero_shape_2 from '@/assets/img/hero/hero-2-shape-3.png';
 import hero_shape_3 from '@/assets/img/hero/hero-2-shape-4.png';
-import {online_courses_data} from "@/data/course-data";
 
 export default function HeroAreaTwo() {
   return (
