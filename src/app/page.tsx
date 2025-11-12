@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import BannerArea from "@/components/banner/banner-area";
 
-import CategoryArea from "@/components/category/category-area";
 import CourseArea from "@/components/course/course-area";
 
 import CtaTwo from "@/components/cta/cta-two";
@@ -43,7 +42,7 @@ export default function HomePage() {
       {/* tab courses list area end */}
 
     {/* category area */}
-      <CategoryArea />
+      {/* <CategoryArea /> */}
       {/* category area */}
       
       {/* course live area start */}

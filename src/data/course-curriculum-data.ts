@@ -746,6 +746,156 @@ export const courseCurriculumData: CourseCurriculum[] = [
         description: "Use analytics and insights for strategic decision-making"
       }
     ]
+  },
+  // Course 11: Data Science & Analytics
+  {
+    courseId: 11,
+    modules: [
+      {
+        title: "Introduction to Data Science",
+        duration: "4 weeks",
+        difficulty: "Beginner" as const,
+        topics: [
+          { title: "Data Science Fundamentals" },
+          { title: "Python for Data Science" },
+          { title: "Data Analysis Workflow" }
+        ]
+      },
+      {
+        title: "Statistics & Probability",
+        duration: "6 weeks",
+        difficulty: "Intermediate" as const,
+        topics: [
+          { title: "Descriptive Statistics" },
+          { title: "Probability Theory" },
+          { title: "Hypothesis Testing" }
+        ]
+      },
+      {
+        title: "Machine Learning Basics",
+        duration: "8 weeks",
+        difficulty: "Advanced" as const,
+        topics: [
+          { title: "Supervised Learning" },
+          { title: "Unsupervised Learning" },
+          { title: "Model Evaluation" }
+        ]
+      }
+    ],
+    learningOutcomes: [
+      {
+        title: "Analyze complex datasets using Python and R",
+        description: "Master data manipulation and statistical analysis"
+      },
+      {
+        title: "Build predictive models with machine learning",
+        description: "Create and deploy ML models for real-world problems"
+      },
+      {
+        title: "Visualize data insights effectively",
+        description: "Communicate findings through compelling visualizations"
+      }
+    ]
+  },
+  // Course 12: Web Development
+  {
+    courseId: 12,
+    modules: [
+      {
+        title: "Frontend Fundamentals",
+        duration: "5 weeks",
+        difficulty: "Beginner" as const,
+        topics: [
+          { title: "HTML5 & CSS3" },
+          { title: "JavaScript ES6+" },
+          { title: "Responsive Design" }
+        ]
+      },
+      {
+        title: "Modern Frontend Frameworks",
+        duration: "6 weeks",
+        difficulty: "Intermediate" as const,
+        topics: [
+          { title: "React.js Fundamentals" },
+          { title: "State Management" },
+          { title: "Component Architecture" }
+        ]
+      },
+      {
+        title: "Backend Development",
+        duration: "7 weeks",
+        difficulty: "Advanced" as const,
+        topics: [
+          { title: "Node.js & Express" },
+          { title: "Database Design" },
+          { title: "API Development" }
+        ]
+      }
+    ],
+    learningOutcomes: [
+      {
+        title: "Build full-stack web applications",
+        description: "Create modern, responsive web apps from scratch"
+      },
+      {
+        title: "Master React and Node.js ecosystem",
+        description: "Work with industry-standard tools and frameworks"
+      },
+      {
+        title: "Deploy applications to the cloud",
+        description: "Learn DevOps basics and cloud deployment strategies"
+      }
+    ]
+  },
+  // Course 13: Cybersecurity
+  {
+    courseId: 13,
+    modules: [
+      {
+        title: "Security Fundamentals",
+        duration: "4 weeks",
+        difficulty: "Beginner" as const,
+        topics: [
+          { title: "Information Security Basics" },
+          { title: "Threat Landscape" },
+          { title: "Security Frameworks" }
+        ]
+      },
+      {
+        title: "Network Security",
+        duration: "6 weeks",
+        difficulty: "Intermediate" as const,
+        topics: [
+          { title: "Network Protocols" },
+          { title: "Firewalls & VPNs" },
+          { title: "Intrusion Detection" }
+        ]
+      },
+      {
+        title: "Ethical Hacking",
+        duration: "8 weeks",
+        difficulty: "Advanced" as const,
+        topics: [
+          { title: "Penetration Testing" },
+          { title: "Vulnerability Assessment" },
+          { title: "Security Auditing" }
+        ]
+      }
+    ],
+    learningOutcomes: [
+      {
+        title: "Identify and mitigate security threats",
+        description: "Protect systems from cyber attacks"
+      },
+      {
+        title: "Perform security audits and testing",
+        description: "Conduct penetration tests and vulnerability assessments"
+      },
+      {
+        title: "Implement security best practices",
+        description: "Design and maintain secure systems and networks"
+      }
+    ]
   }
 ];
 
