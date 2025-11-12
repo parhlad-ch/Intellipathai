@@ -8,7 +8,7 @@ import AdmissionArea, {
 } from "@/components/admission/admission-area";
 
 export const metadata: Metadata = {
-  title: "University Admission Overview - Acadia",
+  title: "University Admission Overview - IntelliPath AI",
 };
 
 export default function UniversityAdmissionOverviewPage() {

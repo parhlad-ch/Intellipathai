@@ -3,7 +3,7 @@ import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-two";
 import TuitionArea from "./_components/tuition-area";
 
 export const metadata: Metadata = {
-  title: "University Tuition Fees - Acadia",
+  title: "University Tuition Fees - IntelliPath AI",
 };
 
 export default function UniversityTuitionFeesPage() {

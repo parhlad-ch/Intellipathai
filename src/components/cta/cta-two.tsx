@@ -12,7 +12,7 @@ export default function CtaTwo() {
               <h2 className="tp-cta-2-title">
                 Get Started With {' '}
                 <span>
-                  Acadia
+                  IntelliPath AI
                   <Image
                     className="tp-underline-shape-12 wow bounceIn"
                     data-wow-duration="1.5s"

@@ -59,7 +59,7 @@ const slider_data = [
       title: {
          text_1: 'Build Education Website',
          text_2: 'Using',
-         text_3: 'Acadia'
+         text_3: 'IntelliPath AI'
       }
    },
    {
@@ -109,7 +109,7 @@ export default function HeroAreaFour() {
                         <div className="row">
                            <div className="col-lg-7">
                               <div className="tp-slider-5-content">
-                                 <span>Welcome to Acadia</span>
+                                 <span>Welcome to IntelliPath AI</span>
                                  <h2 className="tp-slider-5-title">
                                     <i dangerouslySetInnerHTML={{__html: item.title.text_1}}/> {" "}
                                     <span>

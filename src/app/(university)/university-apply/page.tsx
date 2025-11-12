@@ -7,7 +7,7 @@ import ProcessTwo from "@/components/process/process-two";
 import ApplyRequirement from "@/components/requirement/apply-requirement-area";
 
 export const metadata: Metadata = {
-  title: "University Apply - Acadia",
+  title: "University Apply - IntelliPath AI",
 };
 
 export default function UniversityApplyPage() {

@@ -5,7 +5,7 @@ import UndergraduateArea from "@/components/undergraduate/undergraduate-area";
 import PlanArea from "@/components/plan/plan-area";
 
 export const metadata: Metadata = {
-  title: "University Program - Acadia",
+  title: "University Program - IntelliPath AI",
 };
 
 export default function UniversityProgramPage() {

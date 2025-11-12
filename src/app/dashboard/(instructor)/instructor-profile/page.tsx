@@ -4,7 +4,7 @@ import DashboardContentWrapper from "@/components/dashboard/dashboard-content-wr
 import InstructorProfileArea from "@/components/dashboard/instructor/instructor-profile-area";
 
 export const metadata:Metadata = {
-    title: "Instructor Profile - Acadia",
+    title: "Instructor Profile - IntelliPath AI",
 }
 
 export default function InstructorProfilePage() {

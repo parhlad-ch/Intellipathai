@@ -7,7 +7,7 @@ import TeamArea from "@/components/team/team-area";
 import BrandArea from "@/components/brand/brand-area";
 
 export const metadata: Metadata = {
-    title: "About - Acadia",
+    title: "About - IntelliPath AI",
   };
 
 export default function AboutPage() {

@@ -3,7 +3,7 @@ import WishlistArea from "./_components/wishlist-area";
 
 
 export const metadata: Metadata = {
-    title: "Wishlist - Acadia",
+    title: "Wishlist - IntelliPath AI",
 }
 
 export default function WishlistPage() {

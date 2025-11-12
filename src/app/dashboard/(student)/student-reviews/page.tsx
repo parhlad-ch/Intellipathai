@@ -4,7 +4,7 @@ import DashboardContentWrapper from "@/components/dashboard/dashboard-content-wr
 import InstructorReviewArea from "@/components/dashboard/instructor/instructor-review-area";
 
 export const metadata: Metadata = {
-    title: "Student Reviews - Acadia",
+    title: "Student Reviews - IntelliPath AI",
 }
 
 export default function StudentReviewsPage() {

@@ -23,7 +23,7 @@ export default function CampusChooseAreaTwo() {
                      </div>
                      <div className="tp-campus-choose-content mb-10 wow fadeInUp" data-wow-delay=".5s">
                         <h2 className="tp-campus-choose-title">Our goal is to develop and meet the needs <br/> of each child so that he or she becomes a <br/> well-rounded tomorrow individual.</h2>
-                        <Link className="tp-btn" href="/university-about">Why Choose Acadia </Link>
+                        <Link className="tp-btn" href="/university-about">Why Choose IntelliPath AI </Link>
                      </div>
                   </div>
                </div>

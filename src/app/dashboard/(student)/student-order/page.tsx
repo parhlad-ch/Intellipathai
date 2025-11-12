@@ -4,7 +4,7 @@ import DashboardContentWrapper from "@/components/dashboard/dashboard-content-wr
 import StudentOrderArea from "@/components/dashboard/student/student-order-area";
 
 export const metadata: Metadata = {
-    title: "Student Order - Acadia",
+    title: "Student Order - IntelliPath AI",
 }
 
 export default function StudentOrderPage() {

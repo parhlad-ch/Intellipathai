@@ -15,6 +15,7 @@ import TabCoursesList from "@/components/course/tab-courses-list";
 import CourseFilterProvider from "@/components/provider/course-filter-provider";
 import { online_courses_data } from "@/data/course-data";
 import MembershipArea from "@/app/(pages)/membership-plans/_components/membership-area";
+import ProPlanBanner from "@/components/banner/pro-plan-banner";
 
 
 export const metadata: Metadata = {
@@ -53,7 +54,7 @@ export default function HomePage() {
       {/* testimonial area start */}
       <TestimonialTwo/>
       {/* testimonial area end */}
-
+<ProPlanBanner/>
       {/* membership plans start */}
       <MembershipArea/>
       {/* membership plans end */}

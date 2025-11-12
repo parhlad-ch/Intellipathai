@@ -4,7 +4,7 @@ import DashboardContentWrapper from "@/components/dashboard/dashboard-content-wr
 import InstructorAssignmentArea from "@/components/dashboard/instructor/instructor-assignment-area";
 
 export const metadata: Metadata = {
-   title: "Instructor Assignment - Acadia",
+   title: "Instructor Assignment - IntelliPath AI",
 }
 
 export default function InstructorAssignmentPage() {

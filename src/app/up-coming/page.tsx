@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Timer from "@/components/timer";
 
 export const metadata: Metadata = {
-    title: "Up-Coming - Acadia",
+    title: "Up-Coming - IntelliPath AI",
 };
 
 export default function UpComingPage() {

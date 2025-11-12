@@ -4,7 +4,7 @@ import CampusChooseAreaFour from "@/components/campus/campus-choose-area-4";
 import HistoryArea from "./_components/history-area";
 
 export const metadata: Metadata = {
-  title: "University History - Acadia",
+  title: "University History - IntelliPath AI",
 };
 
 export default function UniversityHistoryPage() {

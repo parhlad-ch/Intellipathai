@@ -9,7 +9,7 @@ import ServiceTwo from '@/components/service/service-two';
 import SubjectArea from '@/components/subject/subject-area';
 
 export const metadata: Metadata = {
-  title: "Home Kids Education - Acadia",
+  title: "Home Kids Education - IntelliPath AI",
 };
 
 export default function HomeKidsEducationPage() {

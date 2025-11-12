@@ -42,7 +42,7 @@ export default function CampusChooseAreaThree() {
                      <Image  src={mission_thumb_2} alt="mission-thumb" style={{height:'auto'}}/>
                      <div className="tp-mission-valus-content">
                         <h4 className="tp-mission-valus-title">Mission</h4>
-                        <p>Acadia University transforms lives through <br/>
+                        <p>IntelliPath AI University transforms lives through <br/>
                            accessible, student-centered, quality <br/>
                            higher education.</p>
                      </div>

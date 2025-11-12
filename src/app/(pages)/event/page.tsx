@@ -3,7 +3,7 @@ import BreadcrumbOne from "@/components/breadcrumb/breadcrumb-one";
 import EventAreaFour from "@/components/event/event-area-four";
 
 export const metadata: Metadata = {
-  title: "Event - Acadia",
+  title: "Event - IntelliPath AI",
 };
 
 export default function EventPage() {

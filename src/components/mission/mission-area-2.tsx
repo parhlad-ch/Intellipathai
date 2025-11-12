@@ -23,7 +23,7 @@ export default function MissionAreaTwo() {
             <div className="col-lg-6">
                 <div className="tp-mission-wrapper">
                     <div className="tp-mission-desc">
-                    <p>Acadia University is a distinguished public university, values learning in the liberal arts and sciences as a cornerstone of individual development and a vital foundation.We will ensure that our students develop both the skills that a sound education provides and the competencies essential for success and leadership in the emerging creative economy.</p>
+                    <p>IntelliPath AI University is a distinguished public university, values learning in the liberal arts and sciences as a cornerstone of individual development and a vital foundation.We will ensure that our students develop both the skills that a sound education provides and the competencies essential for success and leadership in the emerging creative economy.</p>
                     <p>We will also lead to generating practical and theoretical knowledge that enables people to better understand our world and improve conditions for local and global communities.</p>
                     </div>
                     <div className="tp-mission-conversation-box p-relative">

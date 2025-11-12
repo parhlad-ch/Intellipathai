@@ -4,7 +4,7 @@ import DashboardContentWrapper from "@/components/dashboard/dashboard-content-wr
 import InstructorEnrollCourseArea from "@/components/dashboard/instructor/instructor-enroll-course-area";
 
 export const metadata: Metadata = {
-    title: "Student Enroll Course - Acadia",
+    title: "Student Enroll Course - IntelliPath AI",
 }
 
 export default function StudentEnrollCoursePage() {

@@ -7,7 +7,7 @@ import CourseOpenFilterArea from "./_components/course-open-filter-area";
 
 
 export const metadata: Metadata = {
-    title: "Course Open Filter - Acadia",
+    title: "Course Open Filter - IntelliPath AI",
 }
 
 export default function CourseOpenFilterPage() {

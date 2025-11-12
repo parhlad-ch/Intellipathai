@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import CourseLessonArea from "./_components/course-lesson-area";
 
 export const metadata: Metadata = {
-    title: "Course Lesson - Acadia",
+    title: "Course Lesson - IntelliPath AI",
 };
 
 

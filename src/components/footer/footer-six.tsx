@@ -28,11 +28,11 @@ export default function FooterSix() {
                            <a href="tel:012345678">+670 413 90 762</a>
                         </div>
                         <div className="tp-footer-contact-mail shop">
-                           <a href="mailto:acadia@gmail.com">
+                           <a href="mailto:IntelliPath AI@gmail.com">
                               <span>
                                  <Email />
                               </span>
-                              acadia@gmail.com</a>
+                              IntelliPath AI@gmail.com</a>
                         </div>
                      </div>
                   </div>
@@ -93,7 +93,7 @@ export default function FooterSix() {
                <div className="row align-items-center">
                   <div className="col-md-6">
                      <div className="tp-footer-copyright ">
-                        <span>© {new Date().getFullYear()} <a href="#">Acadia</a>. All rights reserved.</span>
+                        <span>© {new Date().getFullYear()} <a href="#">IntelliPath AI</a>. All rights reserved.</span>
                      </div>
                   </div>
                   <div className="col-md-6">
