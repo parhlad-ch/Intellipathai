@@ -1,8 +1,5 @@
 import { Metadata } from "next";
-import Image from "next/image";
-import logo from '@/assets/img/logo/logo-white.png';
 import Timer from "@/components/timer";
-import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Up-Coming - Acadia",
