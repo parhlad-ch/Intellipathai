@@ -13,7 +13,7 @@ const filterCourses = (state: FilterState): ICourseDT[] => {
     courses = courses.filter((course) => {
       if (state.category.includes("All Courses")) {
         return true;
-      } else if (state.category.includes(course.category)) {
+      } else if (course.category === state.category) {
         return true;
       }
       return false;

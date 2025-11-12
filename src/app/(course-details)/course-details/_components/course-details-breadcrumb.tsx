@@ -1,9 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
 import { HomeSvg } from "@/components/svg";
 import { ICourseDT } from "@/types/course-d-t";
 import { removeTagInText } from "@/utils";
-import author_img from "@/assets/img/course/course-5-teacher-1.png";
 
 type IProps = {
    course: ICourseDT
@@ -18,34 +16,20 @@ export default function CourseDetailsBreadcrumb({ course }: IProps) {
                   <div className="tp-breadcrumb__content">
                      <div className="tp-breadcrumb__list course-details mb-70">
                         <span><Link href="/"><HomeSvg/></Link></span>
-                        <span>Courses  /  Design  /  {removeTagInText(course.title)}</span>
+                        <span>Courses  /  {course.category}  /  {removeTagInText(course.title)}</span>
                      </div>
 
-                     <div className="tp-course-details-2-header">
+                     <div className="tp-course-details-2-header w-50 ">
                         <span className="tp-course-details-2-category">{course.category}</span>
-                        <h3 className="tp-course-details-2-title">Bigener Adobe Illustrator for <br /> Graphic Design</h3>
+                        <h3 className="tp-course-details-2-title">{course.title}</h3>
+                        <p>{course.description }</p>
                         <div className="tp-course-details-2-meta-wrapper d-flex align-items-center flex-wrap">
                            <div className="tp-course-details-2-meta ">
                               <div className="tp-course-details-2-author d-flex align-items-center">
-                                 <div className="tp-course-details-2-author-avater">
-                                    <Image src={course.author_img ? course.author_img : author_img} alt="Salim Rana" width={50} height={50} />
-                                 </div>
+                               
                                  <div className="tp-course-details-2-author-content">
-                                    <span className="tp-course-details-2-author-designation">Teacher</span>
-                                    <h3 className="tp-course-details-2-meta-title"><a href="#">Maria Fisce</a></h3>
-                                 </div>
-                              </div>
-                           </div>
-                           <div className="tp-course-details-2-meta">
-                              <span className="tp-course-details-2-meta-subtitle">Category</span>
-                              <h3 className="tp-course-details-2-meta-title">Data Science</h3>
-                           </div>
-                           <div className="tp-course-details-2-meta">
-                              <span className="tp-course-details-2-meta-subtitle">Last updated</span>
-                              <h3 className="tp-course-details-2-meta-title">15 July, 2024</h3>
-                           </div>
-                           <div className="tp-course-details-2-meta text-end">
-                              <div className="tp-course-details-2-meta-rating-wrapper">
+                                    <span className="tp-course-details-2-author-designation">Review</span>
+                                    <h3 className="tp-course-details-2-meta-title">  <div className="tp-course-details-2-meta-rating-wrapper">
                                  <div className="tp-course-rating-icon">
                                     <i className="fa-solid fa-star"></i>
                                     <i className="fa-solid fa-star"></i>
@@ -53,9 +37,20 @@ export default function CourseDetailsBreadcrumb({ course }: IProps) {
                                     <i className="fa-solid fa-star"></i>
                                     <i className="fa-solid fa-star"></i>
                                  </div>
-                                 <span className="tp-course-details-2-meta-subtitle">Review</span>
+                               
+                              </div></h3>
+                                 </div>
                               </div>
                            </div>
+                           <div className="tp-course-details-2-meta">
+                              <span className="tp-course-details-2-meta-subtitle">Students</span>
+                              <h3 className="tp-course-details-2-meta-title">{course.students.toLocaleString()}+ </h3>
+                           </div>
+                           <div className="tp-course-details-2-meta">
+                              <span className="tp-course-details-2-meta-subtitle">Duration</span>
+                              <h3 className="tp-course-details-2-meta-title">{course.duration || "6-12 months"} </h3>
+                           </div>
+                          
                         </div>
                      </div>
                   </div>

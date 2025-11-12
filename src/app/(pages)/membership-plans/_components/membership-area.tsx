@@ -56,6 +56,14 @@ const membershipData = [
     return (
       <section className="tp-membership-area pt-120 pb-60">
         <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="tp-section text-center mb-65">
+                <h3 className="tp-section-title">Simple, Transparent Pricing</h3>
+                <p className="mt-10">Choose the plan that fits your learning goals. All plans include core AI features.</p>
+              </div>
+            </div>
+          </div>
           <div className="row">
             {membershipData.map((plan) => (
               <div className="col-lg-4 col-md-6" key={plan.id}>

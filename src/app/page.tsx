@@ -1,15 +1,20 @@
 import { Metadata } from "next";
 import BannerArea from "@/components/banner/banner-area";
-import BrandArea from "@/components/brand/brand-area";
+
 import CategoryArea from "@/components/category/category-area";
 import CourseArea from "@/components/course/course-area";
-import CourseLiveArea from "@/components/course/course-live-area";
+
 import CtaTwo from "@/components/cta/cta-two";
 import FunFactArea from "@/components/fun-fact/fun-fact-area";
 import HeroAreaTwo from "@/components/hero-area/hero-area-two";
-import TeamArea from "@/components/team/team-area";
+
 import TestimonialTwo from "@/components/testimonial/testimonial-two";
 import TutoringFeatures from "@/components/feature/tutoring-features";
+
+import TabCoursesList from "@/components/course/tab-courses-list";
+import CourseFilterProvider from "@/components/provider/course-filter-provider";
+import { online_courses_data } from "@/data/course-data";
+import MembershipArea from "@/app/(pages)/membership-plans/_components/membership-area";
 
 
 export const metadata: Metadata = {
@@ -31,6 +36,12 @@ export default function HomePage() {
       <CourseArea/>
       {/* course area end */}
 
+      {/* tab courses list area start */}
+      <CourseFilterProvider initialCourses={online_courses_data}>
+        <TabCoursesList className="lightblue-bg" />
+      </CourseFilterProvider>
+      {/* tab courses list area end */}
+
     {/* category area */}
       <CategoryArea />
       {/* category area */}
@@ -42,6 +53,10 @@ export default function HomePage() {
       {/* testimonial area start */}
       <TestimonialTwo/>
       {/* testimonial area end */}
+
+      {/* membership plans start */}
+      <MembershipArea/>
+      {/* membership plans end */}
 
       {/* team area start */}
       {/* <TeamArea/> */}

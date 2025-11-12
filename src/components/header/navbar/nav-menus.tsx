@@ -17,7 +17,11 @@ export default function NavMenus({sm_mega_title}: IProps) {
         {menu_data.map((menu) => (
           <li
             key={menu.id}
-            className={`has-dropdown ${
+            className={`${
+              menu.home_dropdown || menu.pages_dropdown || menu.sm_mega_menus || menu.dropdown_menus
+                ? "has-dropdown"
+                : ""
+            } ${
               menu.home_dropdown || menu.pages_dropdown ? "tp-static" : ""
             }`}
           >

@@ -1,15 +1,15 @@
-import { all_courses } from "@/data/course-data";
+import { online_courses_data } from "@/data/course-data";
 
 type CorseCounts = { [key: string]: number };
-const categoryCounts = all_courses.reduce<CorseCounts>((acc, course) => {
+const categoryCounts = online_courses_data.reduce<CorseCounts>((acc, course) => {
   acc[course.category] = (acc[course.category] || 0) + 1;
   return acc;
 }, {});
-const authorCounts = all_courses.reduce<CorseCounts>((acc, course) => {
+const authorCounts = online_courses_data.reduce<CorseCounts>((acc, course) => {
   acc[course.author_name] = (acc[course.author_name] || 0) + 1;
   return acc;
 }, {});
-const languageCounts = all_courses.reduce<CorseCounts>((acc, course) => {
+const languageCounts = online_courses_data.reduce<CorseCounts>((acc, course) => {
   acc[course.language] = (acc[course.language] || 0) + 1;
   return acc;
 }, {});
