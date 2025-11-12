@@ -96,7 +96,7 @@ export default function FooterTwo() {
                      </div>
                      <div className="col-lg-6 col-md-5">
                         <div className="tp-footer-bottom-info text-end">
-                           <span>Built with 💜 by annexlogics</span>
+                           <span>Built with 💜 by annexlogics ver-1</span>
                         </div>
                      </div>
                   </div>

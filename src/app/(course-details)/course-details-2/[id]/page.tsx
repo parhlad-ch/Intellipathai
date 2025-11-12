@@ -4,11 +4,17 @@ import CourseDetailsArea from "../_components/course-details-area";
 import { removeTagInText } from "@/utils";
 
 
+export function generateStaticParams() {
+    return all_courses.map((course) => ({
+        id: course.id.toString(),
+    }));
+}
+
 export function generateMetadata({ params }: Props) {
     const id = params.id;
     const course = all_courses.find((item) => item.id == Number(id));
     return {
-        title: course?.title ? `${removeTagInText(course.title)} - Acadia` : "Course Details - Acadia",
+        title: course?.title ? `${removeTagInText(course.title)} - IntelliPath AI` : "Course Details - IntelliPath AI",
     };
 }
 
