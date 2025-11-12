@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { RightArrowFour } from '../svg';
 import { footerLinks } from '@/data/footer-links';
 import logo from '@/assets/img/logo/logo-black.png';
 import FooterSocial from './footer-social';
