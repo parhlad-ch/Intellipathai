@@ -72,12 +72,12 @@ export default function CourseItem({ course, removeTag }: IProps) {
         </h4>
         {description && (
           <p className="tp-course-description mb-15">
-            {description}
+            {description.length > 100 ? `${description.substring(0, 80)}...` : description}
           </p>
         )}
         {features && features.length > 0 && (
           <div className="tp-course-features mb-15">
-            {features.map((feature, index) => (
+            {features.slice(0, 2).map((feature, index) => (
               <div key={index} className="tp-course-feature-item mb-10 d-flex align-items-start">
                 <span className="tp-course-feature-icon me-2">
                   <i className="fa-solid fa-check-circle"></i>

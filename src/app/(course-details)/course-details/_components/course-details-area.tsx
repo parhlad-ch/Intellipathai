@@ -66,15 +66,22 @@ export default function CourseDetailsArea({ course }: IProps) {
                            <div className="curriculum-content">
                               {/* Module Structure */}
                               <div className="curriculum-modules">
-                                 {curriculumData?.modules.map((module, index) => (
-                                    <ModuleItem
-                                       key={index}
-                                       title={module.title}
-                                       duration={module.duration}
-                                       difficulty={module.difficulty}
-                                       topics={module.topics}
-                                    />
-                                 ))}
+                                 {curriculumData?.modules.map((module, index) => {
+                                    // Different progress for each module
+                                    const progressValues = [85, 60, 40, 20, 0, 95, 70, 45, 30, 10];
+                                    const progress = progressValues[index % progressValues.length];
+                                    
+                                    return (
+                                       <ModuleItem
+                                          key={index}
+                                          title={module.title}
+                                          duration={module.duration}
+                                          difficulty={module.difficulty}
+                                          topics={module.topics}
+                                          progress={progress}
+                                       />
+                                    );
+                                 })}
                               </div>
                            </div>
                         )}

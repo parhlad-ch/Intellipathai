@@ -38,6 +38,114 @@ export const online_courses_data: ICourseDT[] = [
     ]
   },
   {
+    id: 11,
+    author_img: "/assets/img/teacher/teacher-6.png",
+    author_name: "AI-Powered Tools",
+    title: "Data Science & Analytics",
+    thumbnail: "/assets/img/course/course-thumb-4.jpg",
+    category: "Computer Science",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 3,
+    students: 12500,
+    duration: "8-14 months",
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Master data analysis, machine learning, and AI with hands-on projects and real-world datasets",
+    features: [
+      {
+        name: "ML Model Builder",
+        description: "Create and train machine learning models"
+      },
+      {
+        name: "Data Visualization AI",
+        description: "Generate insights with AI-powered analytics"
+      },
+      {
+        name: "Python & R Tools",
+        description: "Interactive coding environment for data science"
+      },
+      {
+        name: "Real Dataset Library",
+        description: "Access 500+ real-world datasets for practice"
+      }
+    ]
+  },
+  {
+    id: 12,
+    author_img: "/assets/img/teacher/teacher-1.png",
+    author_name: "AI-Powered Tools",
+    title: "Web Development",
+    thumbnail: "/assets/img/course/course-thumb-6.jpg",
+    category: "Computer Science",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 4,
+    students: 18000,
+    duration: "6-10 months",
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Build modern web applications with React, Node.js, and full-stack development tools",
+    features: [
+      {
+        name: "Live Code Editor",
+        description: "Real-time code preview and debugging"
+      },
+      {
+        name: "UI/UX Assistant",
+        description: "AI-powered design recommendations"
+      },
+      {
+        name: "API Builder",
+        description: "Create and test REST APIs instantly"
+      },
+      {
+        name: "Deployment Helper",
+        description: "One-click deployment to cloud platforms"
+      }
+    ]
+  },
+  {
+    id: 13,
+    author_img: "/assets/img/teacher/teacher-4.png",
+    author_name: "AI-Powered Tools",
+    title: "Cybersecurity",
+    thumbnail: "/assets/img/course/course-thumb-5.jpg",
+    category: "Computer Science",
+    price: 0,
+    avg_rating: 5,
+    discount: 0,
+    lessons: 3,
+    students: 9500,
+    duration: "8-12 months",
+    total_rating: 5,
+    language: "English",
+    progress: 0,
+    description: "Learn ethical hacking, network security, and protect systems from cyber threats",
+    features: [
+      {
+        name: "Penetration Testing Lab",
+        description: "Practice hacking in safe virtual environments"
+      },
+      {
+        name: "Threat Detector AI",
+        description: "Identify vulnerabilities with AI scanning"
+      },
+      {
+        name: "Security Protocols",
+        description: "Master encryption and secure coding"
+      },
+      {
+        name: "CTF Challenges",
+        description: "Solve Capture The Flag security puzzles"
+      }
+    ]
+  },
+  {
     id: 2,
     author_img: "/assets/img/teacher/teacher-2.png",
     author_name: "Medical Education",
@@ -306,7 +414,7 @@ export const online_courses_data: ICourseDT[] = [
     ]
   },
   // {
-  //   id: 4,
+  //   id: 11,
   //   author_img: "/assets/img/teacher/teacher-5.png",
   //   author_name: "Benjamin",
   //   title: "The complete guide to build <br/> restful API application",

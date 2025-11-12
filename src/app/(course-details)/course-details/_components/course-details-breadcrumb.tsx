@@ -1,9 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
 import { HomeSvg } from "@/components/svg";
 import { ICourseDT } from "@/types/course-d-t";
 import { removeTagInText } from "@/utils";
-import author_img from "@/assets/img/course/course-5-teacher-1.png";
 
 type IProps = {
    course: ICourseDT
@@ -18,7 +16,7 @@ export default function CourseDetailsBreadcrumb({ course }: IProps) {
                   <div className="tp-breadcrumb__content">
                      <div className="tp-breadcrumb__list course-details mb-70">
                         <span><Link href="/"><HomeSvg/></Link></span>
-                        <span>Courses  /  Design  /  {removeTagInText(course.title)}</span>
+                        <span>Courses  /  {course.category}  /  {removeTagInText(course.title)}</span>
                      </div>
 
                      <div className="tp-course-details-2-header w-50 ">
