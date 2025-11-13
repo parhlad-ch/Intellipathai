@@ -4,6 +4,12 @@ import BlogDetailsArea from "../_components/blog-details-area";
 import BlogDetailsRelatedBlogs from "@/components/blog/details/blog-details-related-blogs";
 
 
+export function generateStaticParams() {
+  return all_blogs.map((blog) => ({
+    id: blog.id.toString(),
+  }));
+}
+
 export function generateMetadata({ params }: {params: {id: string}}) {
   const id = params.id;
   const blog = all_blogs.find((item) => item.id == Number(id));
