@@ -4,6 +4,12 @@ import DetailsBreadcrumb from "../_components/details-breadcrumb";
 import FullWidthImg from "../_components/full-width-img";
 import BlogDetailsArea from "../_components/blog-details-area";
 
+export function generateStaticParams() {
+  return all_blogs.map((blog) => ({
+    id: blog.id.toString(),
+  }));
+}
+
 export default function BlogDetailsFullWidthPage({
   params,
 }: {
